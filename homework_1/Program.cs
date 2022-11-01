@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!!!");
+﻿internal class NewBaseType
+{
+    private static void Main(string[] args)
+    {
+        {
+            string name;
+            Console.Write("Enter your name ");
+            Console.WriteLine();
+            name = Console.ReadLine();
+            Console.WriteLine("Hi, " + name);
+        }
+    }
+}
