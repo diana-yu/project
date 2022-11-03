@@ -6,8 +6,11 @@
         int radius;
         
         Console.WriteLine("Enter the radius");
+
         string input1 = Console.ReadLine();
+
         radius = int.Parse(input1);
+        
         Console.WriteLine(pi * Math.Pow(radius, 2)); 
     }
 }
