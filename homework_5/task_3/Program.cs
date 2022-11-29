@@ -14,7 +14,6 @@
         {
             result = result * number--;
         }
-       
         while (number > 1);
 
         Console.WriteLine("Result = " + result);

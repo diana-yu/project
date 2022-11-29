@@ -6,8 +6,8 @@
         Console.WriteLine("Rectangle");
         Console.WriteLine();
 
-        int height = 6;
-        int width = 10;        
+        int height = 10;
+        int width = 16;        
 
         for (int rowCounter = 0; rowCounter < height; rowCounter++)
         {
